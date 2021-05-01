@@ -13,9 +13,9 @@ echo -e "${RED}File encrypter/decrypter${NONE}"
 
 echo "Please select what you want to do"
 
-choise="Encrypt Decrypt"
+choice="Encrypt Decrypt"
 
-select option in $choise; do
+select option in $choice; do
 	if [ $REPLY = 1 ];
 then 
 	echo "You have selected Encryption"
